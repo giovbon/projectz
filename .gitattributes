@@ -1,0 +1,22 @@
+# Force LF for shell scripts and workflows (Linux runners need LF)
+*.sh        text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+Dockerfile  text eol=lf
+*.env*      text eol=lf
+.gitignore  text eol=lf
+.gitattributes text eol=lf
+
+# Markdown, Go, TypeScript — autodetect (can be either)
+*.md        text
+*.go        text
+*.ts        text
+*.tsx       text
+*.css       text
+*.html      text
+*.json      text
+
+# Binary files
+*.png       binary
+*.jpg       binary
+*.ico       binary
