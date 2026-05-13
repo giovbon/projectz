@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+server/embed/*
+!server/embed/.gitkeep
+
+# Build output
+gh-pages/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+server/server
+server/go.sum
+
+# Docker
+docker-compose.override.yml

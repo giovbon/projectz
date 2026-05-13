@@ -1,0 +1,10 @@
+node_modules
+.git
+.github
+gh-pages
+scripts
+*.md
+!content/**/*.md
+.DS_Store
+.env
+.env.local
